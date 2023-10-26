@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+/*  font-family: 'Oleo Script Swash Caps', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+:root{
+    --main-bg-color: #2874f0;
+    --bg-color: #e4e7ed;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    width: auto;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 60px;
+    padding: 0px 0px 0px 21px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0px 30px 0px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    color: black;
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 3.7vh;
+    width: 25vw;
+    border-radius: 5px;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 12px;
+    border: 2px solid black;
+}
+
+.search button{
+    margin: 0px 0px 0px 20px;
+    padding: 1px 7px 1px 7px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    border-radius: 5px;
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+.slider img{
+    width: 73.2vw;
+    height: 60vh;
+}
+main{
+    background-color: var(--bg-color);
+}
+
+.container{
+    min-height: calc(100vh - 45px - 8vh);
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 5px auto auto auto;
+    overflow: hidden;
+}
+
+.card{
+    background-color: white;
+    width: 73.2vw;
+    margin: 0px auto;
+    height: 42vh;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.my-1{
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0px 10px 10px;
+}
+
+.card-items{
+    width: 9.5vw;
+    margin: 5px 0px 0px 25px;
+    display: inline-block;
+}
+
+.card-lines{
+    width: 9.5vw;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.min-off{
+    color: green;
+}
+
+.cards{
+    display: flex;
+    overflow: scroll;
+}
+
+.login{
+    background-color: #fb641b;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 6vw;
+    height: 4vh;
+    transform:translate(25vw ,1.5vh);
+    /* transform:translateY(2vh); */
+}
+
+.login-button{
+    margin: 0px 0px 2px 0px; 
+}
+
+.lbtn{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lbtn:hover{
+    color: black;
+}
+
+footer{
+    height: 8vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
