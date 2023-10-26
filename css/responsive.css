@@ -1,0 +1,66 @@
+@media screen and (max-width: 1000px) {
+    nav{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin: 10px 0px 10px 0px;
+    }
+
+    nav ul{
+        justify-content: center;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .search{
+        justify-content: center;
+    }
+
+    .search input{
+        margin: 0px 0px 15px 0px;
+    }
+
+    .search button{
+        margin: 0px 0px 14px 10px;
+        padding: 2px 10px;
+    }
+
+    .slider{
+        display: flex;
+        justify-content: center;
+        height: 20vh;
+    }
+
+    .card{
+        height: 35vh;
+    }
+
+    .cards{
+        display: flex;
+        overflow: scroll;
+    }
+
+    .card-items img{
+        width: 10vw;
+        height: 8vh;
+        margin: auto;
+    }
+
+    .card-lines{
+        font-size: 2vh;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .card-items img{
+        height: 7vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-items img{
+        height: 7vh;
+        width: 6vh;
+    }
+}
